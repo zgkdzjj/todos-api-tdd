@@ -8,7 +8,7 @@ RSpec.describe AuthorizeApiRequest do
   # Invalid request subject
   subject(:invalid_request_obj) { described_class.new({}) }
   # Valid request subject
-  subject(:request_obj) { described_class.new({}) }
+  subject(:request_obj) { described_class.new(header) }
 
   # Test suite for AuthorizeApiRequest#call
   # This is our entry point into the service class

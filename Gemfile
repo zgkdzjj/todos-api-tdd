@@ -57,3 +57,12 @@ group :test do
 end
 
 gem 'jwt'
+
+
+# Serializers
+gem 'active_model_serializers'
+
+# Pagination
+gem 'will_paginate'
+
+gem 'faker'
